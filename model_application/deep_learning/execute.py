@@ -323,6 +323,8 @@ class ModelExecutor:
             features = features.to(self.device)
             predictions = self.model(features)
 
+        print(predictions)
+        
         json.dump(
             {"predictions": predictions.detach().cpu().numpy().tolist()},
             open(os.path.join(self.checkpoint_path, "predictions.json"), "w+"),
