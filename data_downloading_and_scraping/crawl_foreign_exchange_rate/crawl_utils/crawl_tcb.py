@@ -1,4 +1,4 @@
-from dataset_preparation.crawl_foreign_exchange_rate.crawl_utils.utils import setup_driver, save_to_csv
+from data_downloading_and_scraping.crawl_foreign_exchange_rate.crawl_utils.utils import setup_driver, save_to_csv
 
 import time
 from datetime import datetime, timedelta

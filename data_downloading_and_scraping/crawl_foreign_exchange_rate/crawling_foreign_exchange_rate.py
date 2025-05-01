@@ -1,9 +1,9 @@
-from dataset_preparation.crawl_foreign_exchange_rate.crawl_utils import (
+from data_downloading_and_scraping.crawl_foreign_exchange_rate.crawl_utils import (
     crawl_exchange_rates_bidv,
     crawl_exchange_rates_vcb,
     crawl_exchange_rates_tcb
 )
-from dataset_preparation.crawl_foreign_exchange_rate.crawl_utils.utils import merge_csv
+from data_downloading_and_scraping.crawl_foreign_exchange_rate.crawl_utils.utils import merge_csv
 
 import argparse
 from datetime import datetime
